@@ -1,0 +1,142 @@
+/* Simple CSS Reset */
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    border-radius: 3%;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+/* Header Section */
+#logo{
+    height: 50px;
+    width: auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+
+}
+
+.nav-container>ul{
+    display:flex;
+    gap:10px;
+    list-style-type: none;
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 100px;
+}
+
+.hero-two{
+    display: flex;
+    justify-content: space-between;
+
+}
+#animals{
+    height: 300px;
+    width: 500px;
+}
+
+
+
+/* Info Section */
+.info-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.animal-container{
+    display: flex;
+    gap:50px;
+}
+
+.animal-card{
+text-align: center;
+}
+
+.animal-card>img{
+    height: 250px;
+    width: 250px;
+}
+
+/* Quote */
+.quote{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight:300;
+    background-color: #e5e7eb;
+}
+
+
+/* CTA Section */
+.cta-container{
+    display: flex;
+    color:white;
+    border-radius: 10px;
+    margin: 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+/* Odin Styling */
+#hero-main{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+#hero-sub,li{
+font-size: 18px;
+color:#E5E7EB;
+}
+
+.hero-container, footer{
+    background-color: #1f2937;
+}
+
+footer{
+    color:#F9FAF8;
+    text-align: center;
+    padding: 25px;
+}
+
+#hero-button,.cta-container{
+    background-color: #3882f6;
+}
+
+
+#info-header{
+    font-size: 36px;
+    color: #1f2937;
+    weight: 900;
+}
+
+#cta-button{
+    background-color: #3882f6;
+    color: white;
+    width: 100px;
+    height: 25px;
+    border-color: white;
+    border-radius: 5px;
+}
+
